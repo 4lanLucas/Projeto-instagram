@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*define configurações de responsividade quando menos de 1023px*/
+
+@media screen and (max-width:1023px) {
+
+    .divisorE {
+        display: none;
+    }
+
+    .divisorD {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loginbox {
+        margin-bottom: 10px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .loginbox button b {
+        background-color: #0095F6;
+    }
+
+    .optionbox {
+        margin: 0px;
+        margin-bottom: 24px;
+    }
+
+    .extraoptions{
+        margin-right: 0px;
+
+    }
+}
+
+/*/*define configurações de responsividade quando menos de 1023px*/
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        height: 625px;
+        margin: 0px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .divisorD {
+        justify-content: flex-start;
+    }
+
+    .loginbox {
+        border: none;
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .optionbox{
+        border: none;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .divisorE{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+    .extraoptions{
+        width: 100%;
+    }
+    .extraimages img{
+        width: 130px;
+    }
+}

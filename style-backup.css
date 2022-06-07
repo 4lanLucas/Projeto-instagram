@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #181818;
+}
+
+.container {
+    background-color: #242526;
+    height: 625px;
+    width: 70%;
+    margin-top: 32px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.centralizar {
+    justify-content: center;
+    align-items: center;
+}
+
+.divisorE {
+    background-color: #242526;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.divisorD {
+    background-color: #242526;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.loginbox {
+    color: white;
+    font-size: 20px;
+    width: 348px;
+    height: 333px;
+    border: 1px solid white;
+    background-color: #242526;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.loginbox .img1 {
+    margin-top: 40px;
+    width: 53%;
+    margin-bottom: 20px;
+}
+
+.loginbox .img2 {
+    width: 95px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.loginbox button {
+    background-color: #0095F6;
+    border: 0px;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.loginbox button b {
+    background-color: #0095F6;
+}
+
+.botao {
+    background-color: #242526;
+    color: #0095F6;
+    font-size: 14px;
+}
+
+.optionbox {
+    width: 348px;
+    height: 70px;
+    border: 1px solid white;
+    background-color: #242526;
+    margin-right: 85px;
+    display: flex;
+}
+
+.optionbox p {
+    background-color: #242526;
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.imageborder {
+    height: 80%;
+    width: 100%;
+    background: none;
+    box-sizing: border-box;
+    object-position: center;
+    background-color: #242526;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageborder .iphone{
+    background-color: none;
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+}
+.iphone img{
+    height: 100%;
+    width: 100%;
+}
+.imagecontent {
+    background-color: black;
+    border-radius: 25px;
+    width: 47%;
+    height: 95%;
+    margin-left: -226.5px;
+}
+.imagecontent img{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.imagecontent .selected{
+    display: block;
+    animation: anim1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+@keyframes anim1{
+    from{
+        opacity: 0;
+        display: none;
+    }
+    20% {
+        opacity: 1;
+        display: block;
+    }
+    80% {
+        opacity: 1;
+        display: block;
+    }
+    to{
+        opacity: 0;
+        display: none;
+    }
+}
