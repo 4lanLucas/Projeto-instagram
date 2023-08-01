@@ -7,4 +7,4 @@ Neste projeto foi utilizado:
     - CSS
     - Javascript
 
-Obrigado pela atenção ^^
+Espero que gostem ^^
